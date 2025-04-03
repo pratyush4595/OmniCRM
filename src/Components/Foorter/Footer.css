@@ -1,0 +1,29 @@
+.footer-heading {
+    margin-bottom: 20px;
+}
+
+.footer-menu {
+    margin-bottom: 20px;
+}
+
+.footer-menu-item {
+    color: #000;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+
+.footer-social {
+    margin-bottom: 1rem;
+}
+
+.footer-social li a {
+    text-decoration: none;
+}
+
+.footer-social li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 17px;
+}

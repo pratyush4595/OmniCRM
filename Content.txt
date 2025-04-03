@@ -1,0 +1,13 @@
+Integration of Navbar
+Loader & Alert Feature
+Customer Table and Customer CRUD Operations
+Clickable Customer Dashboard
+Customers Search Functionality
+Customres Pagination Functionality
+Login Signup Functionality
+Secure the App
+Integration of User Table and User CRUD Operations
+Integration of Ticket Table and Ticket CRUD Operations
+Clickable Ticket Dashboard
+Tickets Search Functionality
+Integration of Footer

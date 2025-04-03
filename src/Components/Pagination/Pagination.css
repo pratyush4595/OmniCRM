@@ -1,0 +1,28 @@
+.page-link {
+    color: #750099;
+}
+
+.page-link:hover {
+    cursor: pointer;
+    color: #750099;
+}
+
+.active .page-link {
+    color: #fff;
+    background-color: #750099;
+    border-color: #750099;
+}
+
+.select {
+    width: 80px;
+    margin-right: 15px;
+}
+
+.pagination {
+    margin-bottom: 0;
+}
+
+.margin-y {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}

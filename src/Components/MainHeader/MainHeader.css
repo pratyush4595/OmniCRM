@@ -1,0 +1,110 @@
+/* Loader Container*/
+.loader-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Loader */
+.loader {
+    position: absolute;
+    top: 0;
+    /* Place at the top of the loader-container */
+    left: 0;
+    width: 100%;
+    /* Full width of the loader-container */
+    height: 3px;
+    /* Loader thickness */
+    background: linear-gradient(to right,
+            #750099,
+            #9b33cc,
+            #9b33cc,
+            #d9a3ff,
+            #f2d6ff,
+            #750099);
+    /* Background gradient */
+    background-size: 200%;
+    /* To allow smooth looping */
+    animation: backgroundShift 4s linear infinite;
+    /* Animate gradient */
+    overflow: hidden;
+}
+
+/* Moving highlight */
+.highlight {
+    position: absolute;
+    top: 0;
+    left: -20%;
+    /* Start off-screen */
+    width: 20%;
+    /* Highlight width */
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    /* Highly visible whitish highlight */
+    filter: blur(2px) brightness(1.5);
+    /* Enhance visibility with brightness */
+    animation: highlightMove 1.5s linear infinite;
+    /* Animate highlight */
+}
+
+/* Keyframes for background gradient shift */
+@keyframes backgroundShift {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 100%;
+    }
+}
+
+/* Keyframes for moving highlight */
+@keyframes highlightMove {
+    0% {
+        left: -20%;
+        /* Start off-screen */
+    }
+
+    100% {
+        left: 100%;
+        /* End off-screen */
+    }
+}
+
+/*Alert Container*/
+.alert-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Alert */
+.custom-alert {
+    position: absolute;
+    top: 20px;
+    /* Position from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1050;
+    /* Higher z-index to ensure visibility */
+    width: fit-content;
+    max-width: 90%;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-alert .bi-check-circle-fill {
+    font-size: 1.5rem;
+}
+
+.custom-alert .bi-exclamation-circle-fill {
+    font-size: 1.5rem;
+}
+
+.custom-alert h6 {
+    font-weight: 600;
+}
+
+.custom-alert p {
+    font-size: 0.875rem;
+    margin: 0;
+}

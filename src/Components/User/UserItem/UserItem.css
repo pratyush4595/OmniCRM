@@ -1,0 +1,28 @@
+.list-group-item {
+    border-color: #f9e6ff;
+}
+
+.list-group-item:hover {
+    background-color: #f9e6ff;
+}
+.list-group-item:focus {
+    background-color: #f9e6ff;
+}
+
+/* Set the close button color to #750099 (dark purple) */
+.modal .btn-close {
+    filter: invert(13%) sepia(99%) saturate(5454%) hue-rotate(265deg) brightness(89%) contrast(112%) !important;
+}
+
+/* Set a lighter hover color to match */
+.modal .btn-close:hover {
+    filter: invert(60%) sepia(100%) saturate(400%) hue-rotate(270deg) brightness(95%) contrast(105%) !important;
+}
+
+.modal-header {
+    border-color: #df80ff;
+}
+
+.fs-12 {
+    font-size: 8px;
+}

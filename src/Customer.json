@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "TCS",
+        "ceo": "X",
+        "website": "www.tcs.com",
+        "headquater": "Mumbai",
+        "employees": 40000,
+        "turnover": 50000000,
+        "year": 1968
+    },
+    {
+        "id": 2,
+        "name": "Wipro",
+        "ceo": "Y",
+        "website": "www.wipro.com",
+        "headquater": "Benguluru",
+        "employees": 30000,
+        "turnover": 40000000,
+        "year": 1945
+    },
+    {
+        "id": 3,
+        "name": "Infosys",
+        "ceo": "Z",
+        "website": "www.infosys.com",
+        "headquater": "Benguluru",
+        "employees": 20000,
+        "turnover": 30000000,
+        "year": 1981
+    }
+]
